@@ -1,7 +1,13 @@
 git --version
 git config --global user.name "name"
 git config --global user.email "email"
-git init 
-git status
-git add 
-git commit -m "text"
+git init //Přidání git do projektu
+git status //Vypsání statusu
+git add //Přidání souboru pro git commit
+git commit -m "text" //Vytvoření git commit
+git log //Vypsání historie změn
+git add *.png //Všechny soubory s koncovkou
+git add . //Všechny soubory
+git commit -am "text" 
+git log --graph --decorate --abbrev-commit --all --pretty=oneline
+git diff //Zobrazí změny oproti poslednímu commitu
