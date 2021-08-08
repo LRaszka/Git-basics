@@ -29,4 +29,5 @@ git branch <nazev>
 git checkout
 git push origin <nazev>
 git checkout -b <nazev>
-git merge <nazev>
+git merge <nazev> // main i branch
+git rebase <nazev> // zustane jen vysledny main
