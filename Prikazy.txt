@@ -26,4 +26,7 @@ git push
 git whatchanged origin/main -n 1
 git branch
 git branch <nazev>
-git checkout 
+git checkout
+git push origin <nazev>
+git checkout -b <nazev>
+git merge <nazev>
