@@ -16,3 +16,5 @@ git checkout <hash> //Vracení na daný commit
 git checkout master //Přechod do hlavní větve
 pokud se spustí VIM: zmáčknout "I" napsat komentář, zmáčknout ":"napsat "wq+enter"
 VScode --> View + Command pallete --> zadat git --> všechny příkazy pro git
+git clone <url> <složka>
+git remote set-url origin https://github.com/your/repository
