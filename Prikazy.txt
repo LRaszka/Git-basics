@@ -11,3 +11,8 @@ git add . //Všechny soubory
 git commit -am "text" 
 git log --graph --decorate --abbrev-commit --all --pretty=oneline
 git diff //Zobrazí změny oproti poslednímu commitu
+git checkout .. Prikazy.txt //Vracení starší verze souboru
+git checkout <hash> //Vracení na daný commit
+git checkout master //Přechod do hlavní větve
+pokud se spustí VIM: zmáčknout "I" napsat komentář, zmáčknout ":"napsat "wq+enter"
+VScode --> View + Command pallete --> zadat git --> všechny příkazy pro git
