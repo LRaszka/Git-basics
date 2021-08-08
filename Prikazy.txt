@@ -18,3 +18,7 @@ pokud se spustí VIM: zmáčknout "I" napsat komentář, zmáčknout ":"napsat "
 VScode --> View + Command pallete --> zadat git --> všechny příkazy pro git
 git clone <url> <složka>
 git remote set-url origin https://github.com/your/repository
+git remote update
+git status
+git pull
+git push
